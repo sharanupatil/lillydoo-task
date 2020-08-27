@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="contain-to-grid lillydoo-main-menu">
-      <nav class="navbar navbar-expand-lg top-bar">
+      <nav class="navbar navbar-expand-lg navbar-static-top top-bar">
         <div class="logo-wrapper">
           <a
             class="navbar-brand logo"
@@ -158,7 +158,7 @@ a {
     z-index: 1;
     text-align: center;
     width: 100%;
-    height: 50px;
+    height: 0px;
   }
 }
 @media screen and (max-width: 880px) {

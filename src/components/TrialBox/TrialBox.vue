@@ -213,7 +213,7 @@ export default {
 
 <style scoped lang="scss">
 section.bright {
-  background: #fff;
+  background: white;
   img {
     margin-bottom: 8px;
   }
@@ -499,5 +499,9 @@ ul.product-list {
       }
     }
   }
+}
+h2,
+.h2 {
+  font-size: 1.3rem;
 }
 </style>

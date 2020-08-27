@@ -20,7 +20,14 @@
               <h4>
                 <b>{{ enhalt.enthaltTitle }}</b>
               </h4>
-              <div></div>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (12)
+              </div>
               <ul>
                 <li>{{ enhalt.enthaltDescription1 }}</li>
                 <li>{{ enhalt.enthaltDescription2 }}</li>
@@ -41,7 +48,14 @@
             <h4>
               <b>{{ selectedid.enthaltTitle }}</b>
             </h4>
-            <div></div>
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              (115)
+            </div>
             <ul>
               <li>{{ selectedid.enthaltDescription1 }}</li>
               <li>{{ selectedid.enthaltDescription2 }}</li>

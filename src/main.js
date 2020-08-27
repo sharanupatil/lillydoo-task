@@ -8,7 +8,7 @@ import {
     faInstagramSquare,
     faYoutubeSquare
 } from "@fortawesome/free-brands-svg-icons";
-import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt, faEnvelope, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 Vue.use(VueScrollTo);
 Vue.use(Chat);
@@ -18,6 +18,7 @@ library.add(faInstagramSquare);
 library.add(faYoutubeSquare);
 library.add(faPhoneAlt);
 library.add(faEnvelope);
+library.add(faStar);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
